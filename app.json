@@ -1,77 +1,55 @@
 {
   "expo": {
     "name": "Invite",
-    "slug": "invite-everyone",
     "description": "A personalized mass texting App",
+    "slug": "invite-everyone",
+    "owner": "jdiebold1795",
     "version": "2.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "inv-every",
-    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#95B69C"
     },
-    "assetBundlePatterns": ["**/*"],
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": ""
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.jdiebold1795.invite-everyone",
-      "buildNumber": "1",
+      "bundleIdentifier": "",
+      "buildNumber": "3",
       "config": {
         "usesNonExemptEncryption": false
       }
-    },
+     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#95B69C"
+        "foregroundImage": "./assets/adaptive-icon.png"
       }
     },
     "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
         "projectId": ""
-      },
-      "bugsnag": {
-        "apiKey": ""
       }
     },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
     "plugins": [
-      "expo-router",
-      "@react-native-firebase/app",
-      "@react-native-firebase/perf",
-      "@react-native-firebase/crashlytics",
       [
         "expo-image-picker",
         {
           "photosPermission": "The app accesses your photos to let you add them to messages and connect them to your groups."
         }
-      ],
-      [
-        "expo-build-properties",
-        {
-          "ios": {
-            "useFrameworks": "static"
-          }
-        }
-      ],
-      "@bugsnag/plugin-expo-eas-sourcemaps"
-    ],
-    "experiments": {
-      "typedRoutes": true
-    },
-    "hooks": {
-      "postPublish": [
-        {
-          "file": "@bugsnag/expo/hooks/post-publish.js",
-          "config": {}
-        }
       ]
-    }
+    ]
   }
 }

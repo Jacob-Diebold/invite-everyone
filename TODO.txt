@@ -1,0 +1,23 @@
+--------------- NEEDED BEFORE APP STORE RELEASE ----------------
+
+----------------------------- MAIN -----------------------------
+TODO: Add a new version modal that opens when a new app version is detected and shows new features
+    Also add a button in settings to show it
+TODO: Look into react native file system i have saved in browser. Might be a better way to save all group data? or atleast the pictures.
+
+TODO: Change bottom sheet modal to an alert
+
+----------------------------- SIDE -----------------------------
+BUG: Gifs not working anymore on expo, but they work on build for some reason
+
+TODO: Better touch control when searching for contacts
+TODO: Handle sms promise rejection
+TODO: Faster updating for Group Initials
+TODO: Find a way to add a contact as active when selecting number and update the screen at the same time (i couldn't find a way to update the screen)
+TODO: Ability to reorder groups on home screen 
+Optimize app
+
+
+LONG GOALS: 
+TODO: Add a sharing feature using expo sharing to share your group by airdropping it to other people 
+TODO: Better way to send in feedback for app, integrate with email?

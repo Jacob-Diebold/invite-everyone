@@ -1,0 +1,14 @@
+----------------------------- Error Codes ----------------------------- 
+
+0-CON
+    AllContactsScreen.js line 85
+    In useContacts.getContacts() the app did not receive any contact data back 
+    Either the phone has no data or there was trouble getting the data
+1-CON
+    sortContacts.js line 23
+    cleaned contacts is undefined
+    I dont think ill ever run into this 
+3-CON
+    sortContacts.js line 29
+    cleaned contacts length is 0
+    Could be that none of users contacts have any phone numbers
