@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Invite",
+    "description": "A personalized mass texting App",
+    "slug": "invite-everyone",
+    "owner": "jdiebold1795",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#95B69C"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": ""
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "",
+      "buildNumber": "3",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+     },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": ""
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you add them to messages and connect them to your groups."
+        }
+      ]
+    ]
+  }
+}
