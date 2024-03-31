@@ -35,7 +35,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "b20a5bd4-7e00-4727-9294-fd9912532e62"
+        "projectId": ""
       },
       "bugsnag": {
         "apiKey": ""
